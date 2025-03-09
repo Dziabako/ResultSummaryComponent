@@ -1,0 +1,174 @@
+body {
+    background-color: hsl(221, 100%, 96%);
+}
+
+h1 {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+h2, h3 {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+p {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 500;
+    color: hsl(221, 5%, 55%)
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+.result-summary {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+  }
+  
+.left-side, .right-side {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.left-side {
+    width: 30%;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#result {
+    color: hsl(221, 5%, 55%);
+}
+
+.score-medium {
+    border-radius: 50%;
+    width: 55%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    font-size: 15px
+}
+
+#score {
+    font-size: 3em;
+    font-weight: 800;
+    color: white;
+    margin-bottom: -15px;
+}
+
+  
+.right-side {
+    width: 35%;
+    background-color: #ffffff;
+    border-radius: 0 20px 20px 0;
+    margin-left: -15px;
+}
+
+.summary {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: black;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 15px;
+    font-size: 0.85rem;
+}
+
+.reaction {
+    background-color: hsl(0, 100%, 95%);
+    
+}
+
+.memory {
+    background-color: hsl(39, 100%, 95%);
+}
+
+.verbal {
+    background-color: hsl(166, 100%, 95%);
+}
+
+.visual {
+    background-color: hsl(234, 100%, 95%);
+}
+
+#rea {
+    color: hsl(0, 100%, 67%);
+    align-items: center;
+    display: flex
+}
+
+#mem {
+    color: hsl(39, 100%, 56%);
+    align-items: center;
+    display: flex
+}
+
+#ver {
+    color: hsl(166, 100%, 37%);
+    align-items: center;
+    display: flex
+}
+
+#vis {
+    color: hsl(234, 85%, 45%);
+    align-items: center;
+    display: flex
+}
+
+.icon {
+    margin-right: 10px;
+    size: 12px;
+}
+
+.button {
+    width: 95%;
+    height: 10%;
+    border-radius: 15px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+    font-size: 15px;
+    border: none;
+}
+
+.button:hover {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
