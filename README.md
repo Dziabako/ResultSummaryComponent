@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [URL](https://dziabako.github.io/ResultSummaryComponent/)
 
 ## My process
 1. At the beggining I added html tags and classes to the elements
